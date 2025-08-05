@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:DS4toMIDI}",
+            "name": "Debug DS4toMIDI",
+            "program": "${workspaceFolder:DS4toMIDI}/.build/debug/DS4toMIDI",
+            "preLaunchTask": "swift: Build Debug DS4toMIDI"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:DS4toMIDI}",
+            "name": "Release DS4toMIDI",
+            "program": "${workspaceFolder:DS4toMIDI}/.build/release/DS4toMIDI",
+            "preLaunchTask": "swift: Build Release DS4toMIDI"
+        }
+    ]
+}
